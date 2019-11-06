@@ -1,0 +1,15 @@
+#kty208bigURL {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size: 60px;
+  line-height: 60px;
+  position: fixed;
+  top: 0;
+  margin-top: 0;
+  color: #000;
+  background: #fff;
+  padding: 10px;
+  border: 10px solid black;
+  z-index: 1000000000;
+  width: 100%;
+  word-wrap: break-word;
+}
