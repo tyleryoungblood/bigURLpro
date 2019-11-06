@@ -6,7 +6,7 @@ if(document.getElementById('kty208bigURL')) {
    let body = document.body;
    let bigURL = document.createElement('h1')
    bigURL.setAttribute('id', 'kty208bigURL')
-   bigURL.innerHTML = window.location.hostname + window.location.pathname + window.location.search;
+   bigURL.innerHTML = window.location.href
    body.insertBefore(bigURL, body.firstChild);
    bigURL.onclick = function() { bigURL.remove() }
 }
