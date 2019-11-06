@@ -1,3 +1,11 @@
+// inject css
+var style = document.createElement('link');
+style.rel = 'stylesheet';
+style.type = 'text/css';
+style.href = chrome.extension.getURL('styles.css');
+(document.head||document.documentElement).appendChild(style);
+
+// show/hide bigURL
 if(document.getElementById('kty208bigURL')) {
    // bigURL is already being displayed. Remove it.
    document.getElementById('kty208bigURL').remove();
