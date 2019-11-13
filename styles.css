@@ -4,12 +4,14 @@
   line-height: 60px;
   position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
+  width: auto;
   margin-top: 0;
   color: #000;
   background: #fff;
   padding: 10px;
   border: 10px solid black;
   z-index: 1000000000;
-  width: 100%;
   word-wrap: break-word;
 }
