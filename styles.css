@@ -46,15 +46,15 @@
   background-clip: border-box;
 }
 
-#kty208bigURL span.emphasize,
-#kty208bigURLwrapper button.emphasize {
+#kty208bigURL span.kty208emphasize,
+#kty208bigURLwrapper button.kty208emphasize {
   background-color: yellow;
 }
 
-#kty208bigURL span.hide {
+#kty208bigURL span.kty208hide {
   display: none;
 }
 
-#kty208bigURLwrapper button.hide {
+#kty208bigURLwrapper button.kty208hide {
   text-decoration: line-through;
 }

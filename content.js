@@ -93,14 +93,14 @@ if(document.getElementById('kty208bigURLwrapper')) {
             modifyURL(button)
          })
          buttons[i].addEventListener("mouseover", function(){
-            this.classList.add('emphasize')
+            this.classList.add('kty208emphasize')
             let btn = document.getElementById(this.innerHTML)
-            btn.classList.add('emphasize')
+            btn.classList.add('kty208emphasize')
          })
          buttons[i].addEventListener("mouseout", function(){
-            this.classList.remove('emphasize')
+            this.classList.remove('kty208emphasize')
             let btn = document.getElementById(this.innerHTML)
-            btn.classList.remove('emphasize')
+            btn.classList.remove('kty208emphasize')
          })
       }
    }
@@ -112,7 +112,7 @@ if(document.getElementById('kty208bigURLwrapper')) {
       let span = document.getElementById(component)
       let btn = document.getElementById('btn'+component)
       if (span === null) return
-      span.classList.toggle('hide')
-      btn.classList.toggle('hide')
+      span.classList.toggle('kty208hide')
+      btn.classList.toggle('kty208hide')
    }
 }
