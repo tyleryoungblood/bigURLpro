@@ -1,17 +1,60 @@
-#kty208bigURL {
-  font-family: "Arial Narrow", Arial, sans-serif;
-  font-size: 60px;
-  line-height: 60px;
+#kty208bigURLwrapper {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   width: auto;
   margin-top: 0;
-  color: #000;
-  background: #fff;
-  padding: 10px;
-  border: 10px solid black;
+
   z-index: 1000000000;
   word-wrap: break-word;
+  padding: 0;
+}
+
+#kty208bigURLwrapper button {
+  all: unset;
+  padding: 5px 10px;
+  font-size: 20px;
+  border: 1px solid;
+  border-right: none;
+  border-top: none;
+  background: #fff;
+}
+
+#kty208bigURLwrapper button:first-of-type {
+  margin-left: 20px;
+  border-radius: 0 0 0 5px;
+}
+
+#kty208bigURLwrapper button:last-of-type {
+  border-right: 1px solid;
+  border-radius: 0 0 5px 0;
+}
+
+#kty208bigURL {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size: 60px;
+  line-height: 60px;
+  border: 1px solid black;
+  color: #000;
+  background: #fff;
+  margin: 0;
+  padding: 10px;
+}
+
+#kty208bigURL span {
+  background-clip: border-box;
+}
+
+#kty208bigURL span.emphasize,
+#kty208bigURLwrapper button.emphasize {
+  background-color: yellow;
+}
+
+#kty208bigURL span.hide {
+  display: none;
+}
+
+#kty208bigURLwrapper button.hide {
+  text-decoration: line-through;
 }
