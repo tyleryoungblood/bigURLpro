@@ -21,7 +21,7 @@ if(document.getElementById('kty208bigURLwrapper')) {
    let btnBigger = document.createElement('button')
        btnBigger.innerHTML = "+"
    let btnSmaller = document.createElement('button')
-       btnSmaller.innerHTML = "-"
+       btnSmaller.innerHTML = "–"
 
    // add bigURLWrapper, bigURL, and bigger/smaller buttons to page
    body.insertBefore(bigURLwrapper, body.firstChild);
